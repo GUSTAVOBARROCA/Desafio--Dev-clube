@@ -101,3 +101,61 @@ p {
     margin-bottom: 60px;
     cursor: pointer;
 }
+
+@media screen and (max-width:700px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .link {
+        display: none;
+    }
+    .button-header {
+        margin-left: 300px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+    }
+
+    section {
+        position: absolute;
+        top: 45%;
+        width:100%;
+        height: 50%;
+    }
+
+    h1 {
+        width: 340px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        margin: 124px 0px 20px 70px;
+    }
+    p {
+        width: 350px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;     
+        text-align: center;
+        letter-spacing: 0.5px;
+        margin: 10px 0px 10px 70px;
+    }
+
+    main {
+        display: block;
+    }
+    img {
+        width: 312px;
+        height: 288px;
+
+    }
+    .button-main {
+        margin-left: 190px;
+    }
+}
+
